@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#2C323A"/><stop offset="1" stop-color="#121519"/>
+  </linearGradient>
+  <linearGradient id="steel" x1="0.15" y1="0.05" x2="0.85" y2="0.95">
+    <stop offset="0" stop-color="#EEF1F4"/><stop offset="0.45" stop-color="#B4BBC4"/>
+    <stop offset="1" stop-color="#6D757F"/>
+  </linearGradient>
+  <linearGradient id="lip" x1="0.85" y1="0.95" x2="0.15" y2="0.05">
+    <stop offset="0" stop-color="#E3E7EB"/><stop offset="1" stop-color="#5E6670"/>
+  </linearGradient>
+  <radialGradient id="recess" cx="0.42" cy="0.38" r="0.75">
+    <stop offset="0" stop-color="#3A414A"/><stop offset="1" stop-color="#1A1E23"/>
+  </radialGradient>
+  <linearGradient id="brass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#F0CF8A"/><stop offset="1" stop-color="#D4AA5E"/>
+  </linearGradient>
+  <linearGradient id="hub" x1="0.2" y1="0.1" x2="0.8" y2="0.9">
+    <stop offset="0" stop-color="#F2F4F6"/><stop offset="1" stop-color="#7A828C"/>
+  </linearGradient>
+  <clipPath id="recessClip"><circle cx="256" cy="256" r="112"/></clipPath>
+</defs><rect width="512" height="512" rx="114" fill="url(#bg)"/><g transform="translate(256 256) scale(1.3066666666666666) translate(-256 -256)">
+  <circle cx="256" cy="262" r="152" fill="#000" fill-opacity="0.35"/>
+  <circle cx="256" cy="256" r="150" fill="url(#steel)"/>
+  <circle cx="256" cy="256" r="150" fill="none" stroke="#2A2F35" stroke-opacity="0.55" stroke-width="3"/>
+  <path d="M296.1 125.0 A137 137 0 0 0 215.9 125.0" stroke="#0E1013" stroke-width="15" stroke-linecap="round" fill="none"/><path d="M122.5 286.8 A137 137 0 0 0 162.6 356.2" stroke="#0E1013" stroke-width="15" stroke-linecap="round" fill="none"/><path d="M349.4 356.2 A137 137 0 0 0 389.5 286.8" stroke="#0E1013" stroke-width="15" stroke-linecap="round" fill="none"/>
+  <circle cx="256" cy="256" r="122" fill="url(#lip)"/>
+  <circle cx="256" cy="256" r="112" fill="url(#recess)"/>
+  <g clip-path="url(#recessClip)"><rect x="184.6" y="181" width="121.4" height="10" rx="5" fill="url(#brass)"/><rect x="165.6" y="216" width="180.8" height="10" rx="5" fill="url(#brass)"/><rect x="165.6" y="286" width="180.8" height="10" rx="5" fill="url(#brass)"/><rect x="184.6" y="321" width="110.7" height="10" rx="5" fill="url(#brass)"/><rect x="160.0" y="251" width="38.0" height="10" rx="5" fill="url(#brass)"/><rect x="314" y="251" width="38.0" height="10" rx="5" fill="url(#brass)"/>
+  </g>
+  <circle cx="256" cy="256" r="40" fill="url(#hub)"/>
+  <circle cx="256" cy="256" r="40" fill="none" stroke="#2A2F35" stroke-opacity="0.5" stroke-width="2"/>
+  <circle cx="256" cy="256" r="26" fill="none" stroke="#2A2F35" stroke-opacity="0.35" stroke-width="2"/>
+  <circle cx="256" cy="256" r="16" fill="#121519"/></g></svg>
